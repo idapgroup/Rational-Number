@@ -1,0 +1,27 @@
+{
+  "name": "idapgroup/rational-number",
+  "type": "library",
+  "description": "PHP Class for Rational numbers manipulations",
+  "homepage": "https://github.com/idapgroup/Rational-Number",
+  "license": "BSD-3-Clause",
+  "keywords": [
+    "rational-number"
+  ],
+  "version": "1.0.0",
+  "authors": [
+    {
+      "name": "Anton Petrov",
+      "email": "anton.petrov@idapgroup.com",
+      "homepage": "https://github.com/antonpetrov0233"
+    }
+  ],
+  "minimum-stability": "stable",
+  "require": {
+    "php": "^8.1"
+  },
+  "autoload": {
+    "psr-4": {
+      "IdapGroup\\RationalNumber\\": "src/"
+    }
+  }
+}
